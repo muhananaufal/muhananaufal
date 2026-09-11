@@ -269,7 +269,11 @@ function generateRepoSvg(repo, index) {
 }
 
 function generateLanguagesSvg(langMap, totalBytes) {
-  const sortedLangs = Object.entries(langMap).sort((a, b) => b[1] - a[1]).slice(0, 6);
+  const EXCLUDED_LANGS = new Set(['PowerShell', 'CSS', 'HTML', 'Go Template', 'Shell']);
+  const sortedLangs = Object.entries(langMap)
+    .filter(([lang]) => !EXCLUDED_LANGS.has(lang))
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 10);
   if (totalBytes === 0) return '';
 
   let barSegments = '';
@@ -296,7 +300,10 @@ function generateLanguagesSvg(langMap, totalBytes) {
     `;
   });
 
-  const svg = `<svg width="820" height="170" viewBox="0 0 820 170" fill="none" xmlns="http://www.w3.org/2000/svg">
+  const legendRows = Math.ceil(sortedLangs.length / 4);
+  const svgHeight = 85 + legendRows * 40;
+
+  const svg = `<svg width="820" height="${svgHeight}" viewBox="0 0 820 ${svgHeight}" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="metricsBg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#161b22" />
@@ -322,7 +329,7 @@ function generateLanguagesSvg(langMap, totalBytes) {
     .bar-grow { transform-origin: left; animation: slide-in-bar 1.2s cubic-bezier(0.2, 0.8, 0.2, 1) both; }
     .legend-fade { animation: fade-in-legend 0.8s ease-out both; }
   </style>
-  <rect x="1" y="1" width="818" height="168" rx="12" fill="url(#metricsBg)" stroke="#30363d" stroke-width="1.5" />
+  <rect x="1" y="1" width="818" height="${svgHeight - 2}" rx="12" fill="url(#metricsBg)" stroke="#30363d" stroke-width="1.5" />
   
   <text x="22" y="34" class="title">⚡ Real-Time Codebase and Language Distribution</text>
   
