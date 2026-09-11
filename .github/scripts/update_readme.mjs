@@ -365,8 +365,14 @@ async function main() {
     process.exit(1);
   }
 
+  const BACKEND_LANGS = new Set(['Go', 'Rust', 'Python', 'TypeScript', 'JavaScript', 'PHP', 'Java', 'C', 'C++', 'Kotlin', 'Ruby', 'Scala', 'Elixir']);
   const validRepos = repos
-    .filter(r => r.name.toLowerCase() !== USERNAME.toLowerCase() && !r.archived && !r.private)
+    .filter(r =>
+      r.name.toLowerCase() !== USERNAME.toLowerCase() &&
+      !r.archived &&
+      !r.private &&
+      BACKEND_LANGS.has(r.language)
+    )
     .slice(0, 4);
 
   const cacheBuster = Date.now();
