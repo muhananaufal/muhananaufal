@@ -30,16 +30,16 @@
   
   <g clip-path="url(#barClip)">
     <rect x="20" y="52" width="780" height="14" fill="#21262d" />
-    <rect x="20" y="52" width="333.9723777444633" height="14" fill="#4F5D95" class="bar-grow" style="animation-delay: 0s;" />
-<rect x="353.9723777444633" y="52" width="128.4668527722141" height="14" fill="#f1e05a" class="bar-grow" style="animation-delay: 0.1s;" />
-<rect x="482.4392305166774" y="52" width="125.40129225809028" height="14" fill="#00ADD8" class="bar-grow" style="animation-delay: 0.2s;" />
-<rect x="607.8405227747677" y="52" width="36.492697934019965" height="14" fill="#f7523f" class="bar-grow" style="animation-delay: 0.30000000000000004s;" />
-<rect x="644.3332207087876" y="52" width="32.79673817311985" height="14" fill="#dea584" class="bar-grow" style="animation-delay: 0.4s;" />
-<rect x="677.1299588819074" y="52" width="16.03978223218954" height="14" fill="#3178c6" class="bar-grow" style="animation-delay: 0.5s;" />
-<rect x="693.169741114097" y="52" width="11.49612009887798" height="14" fill="#3572A5" class="bar-grow" style="animation-delay: 0.6000000000000001s;" />
-<rect x="704.665861212975" y="52" width="0.5158479238577005" height="14" fill="#8b949e" class="bar-grow" style="animation-delay: 0.7000000000000001s;" />
-<rect x="705.1817091368326" y="52" width="0.31903870173140697" height="14" fill="#8b949e" class="bar-grow" style="animation-delay: 0.8s;" />
-<rect x="705.500747838564" y="52" width="0.27901066429952454" height="14" fill="#8b949e" class="bar-grow" style="animation-delay: 0.9s;" />
+    <rect x="20" y="52" width="334.01808064498067" height="14" fill="#4F5D95" class="bar-grow" style="animation-delay: 0s;" />
+<rect x="354.01808064498067" y="52" width="128.77605935012724" height="14" fill="#f1e05a" class="bar-grow" style="animation-delay: 0.1s;" />
+<rect x="482.7941399951079" y="52" width="125.19523750854044" height="14" fill="#00ADD8" class="bar-grow" style="animation-delay: 0.2s;" />
+<rect x="607.9893775036484" y="52" width="36.557130422937945" height="14" fill="#f7523f" class="bar-grow" style="animation-delay: 0.30000000000000004s;" />
+<rect x="644.5465079265863" y="52" width="32.74284779010525" height="14" fill="#dea584" class="bar-grow" style="animation-delay: 0.4s;" />
+<rect x="677.2893557166915" y="52" width="16.01342625729348" height="14" fill="#3178c6" class="bar-grow" style="animation-delay: 0.5s;" />
+<rect x="693.302781973985" y="52" width="11.477230100975138" height="14" fill="#3572A5" class="bar-grow" style="animation-delay: 0.6000000000000001s;" />
+<rect x="704.7800120749602" y="52" width="0.5150003016933488" height="14" fill="#8b949e" class="bar-grow" style="animation-delay: 0.7000000000000001s;" />
+<rect x="705.2950123766535" y="52" width="0.31851446917687576" height="14" fill="#8b949e" class="bar-grow" style="animation-delay: 0.8s;" />
+<rect x="705.6135268458304" y="52" width="0.2785522043305822" height="14" fill="#8b949e" class="bar-grow" style="animation-delay: 0.9s;" />
 
   </g>
   
