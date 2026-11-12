@@ -30,16 +30,16 @@
   
   <g clip-path="url(#barClip)">
     <rect x="20" y="52" width="780" height="14" fill="#21262d" />
-    <rect x="20" y="52" width="308.8928008288103" height="14" fill="#4F5D95" class="bar-grow" style="animation-delay: 0s;" />
-<rect x="328.8928008288103" y="52" width="141.4209146772545" height="14" fill="#00ADD8" class="bar-grow" style="animation-delay: 0.1s;" />
-<rect x="470.3137155060648" y="52" width="134.06011339818835" height="14" fill="#f1e05a" class="bar-grow" style="animation-delay: 0.2s;" />
-<rect x="604.3738289042532" y="52" width="36.986418778900635" height="14" fill="#dea584" class="bar-grow" style="animation-delay: 0.30000000000000004s;" />
-<rect x="641.3602476831538" y="52" width="20.972585248015786" height="14" fill="#f7523f" class="bar-grow" style="animation-delay: 0.4s;" />
-<rect x="662.3328329311696" y="52" width="18.088814187270675" height="14" fill="#3178c6" class="bar-grow" style="animation-delay: 0.5s;" />
-<rect x="680.4216471184403" y="52" width="12.964713443915928" height="14" fill="#3572A5" class="bar-grow" style="animation-delay: 0.6000000000000001s;" />
-<rect x="693.3863605623562" y="52" width="0.3597948968774562" height="14" fill="#8b949e" class="bar-grow" style="animation-delay: 0.7000000000000001s;" />
-<rect x="693.7461554592337" y="52" width="0.31465340300272315" height="14" fill="#8b949e" class="bar-grow" style="animation-delay: 0.8s;" />
-<rect x="694.0608088622364" y="52" width="0.2044419419347924" height="14" fill="#8b949e" class="bar-grow" style="animation-delay: 0.9s;" />
+    <rect x="20" y="52" width="308.25963980379237" height="14" fill="#4F5D95" class="bar-grow" style="animation-delay: 0s;" />
+<rect x="328.25963980379237" y="52" width="141.13103349175657" height="14" fill="#00ADD8" class="bar-grow" style="animation-delay: 0.1s;" />
+<rect x="469.39067329554894" y="52" width="135.3841454235492" height="14" fill="#f1e05a" class="bar-grow" style="animation-delay: 0.2s;" />
+<rect x="604.7748187190981" y="52" width="36.9106049083185" height="14" fill="#dea584" class="bar-grow" style="animation-delay: 0.30000000000000004s;" />
+<rect x="641.6854236274166" y="52" width="20.929596147793056" height="14" fill="#f7523f" class="bar-grow" style="animation-delay: 0.4s;" />
+<rect x="662.6150197752097" y="52" width="18.051736171527217" height="14" fill="#3178c6" class="bar-grow" style="animation-delay: 0.5s;" />
+<rect x="680.6667559467369" y="52" width="12.938138686488145" height="14" fill="#3572A5" class="bar-grow" style="animation-delay: 0.6000000000000001s;" />
+<rect x="693.6048946332251" y="52" width="0.35905739796167735" height="14" fill="#8b949e" class="bar-grow" style="animation-delay: 0.7000000000000001s;" />
+<rect x="693.9639520311867" y="52" width="0.3140084340340841" height="14" fill="#8b949e" class="bar-grow" style="animation-delay: 0.8s;" />
+<rect x="694.2779604652209" y="52" width="0.20402288176516475" height="14" fill="#8b949e" class="bar-grow" style="animation-delay: 0.9s;" />
 
   </g>
   
@@ -47,7 +47,7 @@
     
       <circle cx="25" cy="95" r="4" fill="#4F5D95" class="legend-fade" style="animation-delay: 0.5s;" />
       <text x="35" y="100" class="langName legend-fade" style="animation-delay: 0.5s;">PHP</text>
-      <text x="120" y="100" class="langPct legend-fade" style="animation-delay: 0.5s;">39.6%</text>
+      <text x="120" y="100" class="langPct legend-fade" style="animation-delay: 0.5s;">39.5%</text>
     
       <circle cx="220" cy="95" r="4" fill="#00ADD8" class="legend-fade" style="animation-delay: 0.6s;" />
       <text x="230" y="100" class="langName legend-fade" style="animation-delay: 0.6s;">Go</text>
@@ -55,7 +55,7 @@
     
       <circle cx="415" cy="95" r="4" fill="#f1e05a" class="legend-fade" style="animation-delay: 0.7s;" />
       <text x="425" y="100" class="langName legend-fade" style="animation-delay: 0.7s;">JavaScript</text>
-      <text x="510" y="100" class="langPct legend-fade" style="animation-delay: 0.7s;">17.2%</text>
+      <text x="510" y="100" class="langPct legend-fade" style="animation-delay: 0.7s;">17.4%</text>
     
       <circle cx="610" cy="95" r="4" fill="#dea584" class="legend-fade" style="animation-delay: 0.8s;" />
       <text x="620" y="100" class="langName legend-fade" style="animation-delay: 0.8s;">Rust</text>
